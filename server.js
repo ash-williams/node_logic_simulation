@@ -1,4 +1,4 @@
-herprocess.env.NODE_ENV = process.env.NODE_ENV || 'development';
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 var port = process.env.PORT;
 var ip = process.env.IP;
