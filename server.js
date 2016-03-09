@@ -1,4 +1,4 @@
-process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+herprocess.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 var port = process.env.PORT;
 var ip = process.env.IP;
@@ -6,6 +6,8 @@ var ip = process.env.IP;
 var express = require('./config/express');
 
 var app = express();
+
+app.use(express.staticProvider(__dirname + '/public'));
 
 app.listen(port);
 
