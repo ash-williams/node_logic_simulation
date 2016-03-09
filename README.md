@@ -1,27 +1,7 @@
-<<<<<<< HEAD
+# REST API to demonstrate combinational logic
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Gate implementations taken from 'Building a computer from first principles' by Nisan &amp; Schoken (http://www.nand2tetris.org).
 
 
-Welcome to your Node.js project on Cloud9 IDE!
-
-This chat example showcases how to use `socket.io` with a static `express` server.
-
-## Running the server
-
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
-
-2) Alternatively you can launch the app from the Terminal:
-
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
-=======
-# node_logic_simulation
 Combinational logic simulation implementation in Node taken from 'Building a computer from first principles' by Nisan &amp; Schoken
->>>>>>> 2cfb66a792614b841daba5bf28171f7bbddd0f21
+
