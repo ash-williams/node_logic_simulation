@@ -1,0 +1,15 @@
+{
+  "name": "js_hardware",
+  "version": "0.0.0",
+  "description": "A JavaScript implementation of the hardware created in 'Building a computer from first principles'",
+  "main": "server.js",
+  "repository": "",
+  "author": "Ash Williams <ashwilliams.co.uk>",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "express": "~4.8.8",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0"
+  }
+}

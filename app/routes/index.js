@@ -1,0 +1,27 @@
+module.exports = function(app){
+    nand: require('./nand.js')(app);
+    not: require('./not.js')(app);
+    and: require('./and.js')(app);
+    or: require('./or.js')(app);
+    xor: require('./xor.js')(app);
+    multiplexer: require('./multiplexer.js')(app);
+    demultiplexer: require('./demultiplexer.js')(app);
+    not16: require('./not16.js')(app);
+    and16: require('./and16.js')(app);
+    or16: require('./or16.js')(app);
+    multiplexer16: require('./multiplexer16.js')(app);
+    or8way: require('./or8way.js')(app);
+    mux4way: require('./mux4way.js')(app);
+    mux4way16: require('./mux4way16.js')(app);
+    mux8way16: require('./mux8way16.js')(app);
+    demux4way: require('./demux4way.js')(app);
+    demux8way: require('./demux8way.js')(app);
+    halfadder: require('./halfadder.js')(app);
+    fulladder: require('./fulladder.js')(app);
+    add16: require('./add16.js')(app);
+    or16way: require('./or16way.js')(app);
+    inc16: require('./inc16.js')(app);
+    alu: require('./alu.js')(app);
+    dff: require('./dff.js')(app);
+    bit: require('./bit.js')(app);
+};
