@@ -1,4 +1,5 @@
 module.exports = function(app){
+    index: require('./home.js')(app);
     nand: require('./nand.js')(app);
     not: require('./not.js')(app);
     and: require('./and.js')(app);
