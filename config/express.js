@@ -30,10 +30,9 @@ module.exports = function(){
     require('../app/routes/index.js')(app);
 	//require('../app/routes/nand.js')(app);
 	
-	app.use(express.staticProvider(__dirname + '/public'));
 
 	app.get('/', function(req, res) {
-	    res.render('index.html');
+	    res.render('/public/index.html');
 	});
 
 	return app;
