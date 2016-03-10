@@ -32,7 +32,7 @@ module.exports = function(){
 	
 
 	app.get('/', function(req, res) {
-	    res.render('/public/index.html');
+	    res.render('/public/index');
 	});
 
 	return app;
