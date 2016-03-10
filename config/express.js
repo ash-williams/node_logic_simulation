@@ -27,7 +27,7 @@ module.exports = function(){
 	   next();
 	});
 	
-	app.set('views', './app/views');
+	app.set('views', './pubic');
 	app.set('view engine', 'ejs');
 	
     require('../app/routes/index.js')(app);
@@ -35,7 +35,7 @@ module.exports = function(){
 	
 
 	app.get('/', function(req, res) {
-	    res.render('/public/index.ejs');
+	    res.render('index.ejs');
 	});
 
 	return app;
