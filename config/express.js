@@ -27,7 +27,7 @@ module.exports = function(){
 	   next();
 	});
 	
-	app.set('views', '/pubic');
+	app.set('views', './app/views');
 	app.set('view engine', 'ejs');
 	
     require('../app/routes/index.js')(app);
