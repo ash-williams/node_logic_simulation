@@ -27,12 +27,15 @@ module.exports = function(){
 	   next();
 	});
 	
+	app.set('views', './app/views');
+	app.set('view engine', 'ejs');
+	
     require('../app/routes/index.js')(app);
 	//require('../app/routes/nand.js')(app);
 	
 
 	app.get('/', function(req, res) {
-	    res.render('/public/index');
+	    res.render('/public/index.ejs');
 	});
 
 	return app;
